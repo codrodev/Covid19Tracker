@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="font_large">
+        <item name="android:textSize"> 20dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="font_medium">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="font_small">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="font_heading_list">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/list_text_heading</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="font_sub_heading_list">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/list_text_sub</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="font_xxxxlarge_bold">
+        <item name="android:textSize">75dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+</resources>

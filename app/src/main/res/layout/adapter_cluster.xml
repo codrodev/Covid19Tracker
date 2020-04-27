@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+        <variable
+            name="vmAdapterCluster"
+            type="com.android.dubaicovid19.view.viewModels.ContainmentClusterViewModel" />
+    </data>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/list_background"
+            android:layoutDirection="locale"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/layoutContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="8dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginRight="60dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2">
+                    <TextView
+                        style="@style/font_heading_list"
+                        android:id="@+id/txtLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:singleLine="false"
+                        android:text='@{vmAdapterCluster.getCurrentCluster(position).Location ?? ""}'/>
+                    <!--android:text='@{vmAdapterCovidCenter.getCurrentCovidCenter(position).Name}'/>-->
+                    <TextView
+                        style="@style/font_sub_heading_list"
+                        android:id="@+id/txtCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:singleLine="false"
+                        android:text='@{vmAdapterCluster.getCurrentCluster(position).City ?? ""}'/>
+                    <!--android:text='@{vmAdapterCovidCenter.getCurrentCovidCenter(position).Address}'/>-->
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imgCall"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_location"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+            <View
+                android:id="@+id/borderView"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/list_bottom_background"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

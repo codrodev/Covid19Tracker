@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="vmActivityRegistration"
+            type="com.android.dubaicovid19.view.viewModels.RegistrationActivityViewModel" />
+    </data>
+    <RelativeLayout
+        android:id="@+id/ui_container"
+        android:background="@mipmap/home_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar_layout"/>
+</layout>

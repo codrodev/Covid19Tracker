@@ -1,0 +1,685 @@
+<resources>
+    <string name="app_name">COVID-19 Tracker</string>
+    <string name="permission_rationale">permission</string>
+    <string name="settings">settings</string>
+    <string name="validate_username">Please fill Name</string>
+    <string name="validate_mobile">Please enter valid Mobile number</string>
+    <string name="validate_email">Please enter valid Email ID</string>
+    <string name="validate_nationality">Please enter valid Country Of Origin</string>
+    <string name="validate_age">Please enter valid Age</string>
+    <string name="validate_location">Please choose Location</string>
+    <string name="validate_emirate">Please provide Emirate ID</string>
+    <string name="validate_passport">Please provide Passport number</string>
+    <string name="validate_covid">Please provide COVID Information</string>
+    <string-array name="country_list">
+        <item>Afghanistan</item>
+        <item>Åland Islands</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>AndorrA</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Congo, The Democratic Republic of the</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote D\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands (Malvinas)</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and Mcdonald Islands</item>
+        <item>Holy See (Vatican City State)</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran, Islamic Republic Of</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Korea, Democratic People\'S Republic of</item>
+        <item>Korea, Republic of</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Lao People\'S Democratic Republic</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libyan Arab Jamahiriya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Macedonia, The Former Yugoslav Republic of</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia, Federated States of</item>
+        <item>Moldova, Republic of</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestinian Territory, Occupied</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>RWANDA</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia and Montenegro</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syrian Arab Republic</item>
+        <item>Taiwan, Province of China</item>
+        <item>Tajikistan</item>
+        <item>Tanzania, United Republic of</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>,
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Viet Nam</item>
+        <item>Virgin Islands, British</item>
+        <item>Virgin Islands, U.S.</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="country_list_code">
+        <item>AF</item>
+        <item>AX</item>
+        <item>AL</item>
+        <item>DZ</item>
+        <item>AS</item>
+        <item>AD</item>
+        <item>AO</item>
+        <item>AI</item>
+        <item>AQ</item>
+        <item>AG</item>
+        <item>AR</item>
+        <item>AM</item>
+        <item>AW</item>
+        <item>AU</item>
+        <item>AT</item>
+        <item>AZ</item>
+        <item>BS</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BB</item>
+        <item>BY</item>
+        <item>BE</item>
+        <item>BZ</item>
+        <item>BJ</item>
+        <item>BM</item>
+        <item>BT</item>
+        <item>BO</item>
+        <item>BA</item>
+        <item>BW</item>
+        <item>BV</item>
+        <item>BR</item>
+        <item>IO</item>
+        <item>BN</item>
+        <item>BG</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>KH</item>
+        <item>CM</item>
+        <item>CA</item>
+        <item>CV</item>
+        <item>KY</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>CL</item>
+        <item>CN</item>
+        <item>CX</item>
+        <item>CC</item>
+        <item>CO</item>
+        <item>KM</item>
+        <item>CG</item>
+        <item>CD</item>
+        <item>CK</item>
+        <item>CR</item>
+        <item>CI</item>
+        <item>HR</item>
+        <item>CU</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>DK</item>
+        <item>DJ</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>EC</item>
+        <item>EG</item>
+        <item>SV</item>
+        <item>GQ</item>
+        <item>ER</item>
+        <item>EE</item>
+        <item>ET</item>
+        <item>FK</item>
+        <item>FO</item>
+        <item>FJ</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GF</item>
+        <item>PF</item>
+        <item>TF</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GE</item>
+        <item>DE</item>
+        <item>GH</item>
+        <item>GI</item>
+        <item>GR</item>
+        <item>GL</item>
+        <item>GD</item>
+        <item>GP</item>
+        <item>GU</item>
+        <item>GT</item>
+        <item>GG</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HT</item>
+        <item>HM</item>
+        <item>VA</item>
+        <item>HN</item>
+        <item>HK</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>IN</item>
+        <item>ID</item>
+        <item>IR</item>
+        <item>IQ</item>
+        <item>IE</item>
+        <item>IM</item>
+        <item>IL</item>
+        <item>IT</item>
+        <item>JM</item>
+        <item>JP</item>
+        <item>JE</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>KE</item>
+        <item>KI</item>
+        <item>KP</item>
+        <item>KR</item>
+        <item>KW</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>LV</item>
+        <item>LB</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>LI</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MO</item>
+        <item>MK</item>
+        <item>MG</item>
+        <item>MW</item>
+        <item>MY</item>
+        <item>MV</item>
+        <item>ML</item>
+        <item>MT</item>
+        <item>MH</item>
+        <item>MQ</item>
+        <item>MR</item>
+        <item>MU</item>
+        <item>YT</item>
+        <item>MX</item>
+        <item>FM</item>
+        <item>MD</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>MM</item>
+        <item>NA</item>
+        <item>NR</item>
+        <item>NP</item>
+        <item>NL</item>
+        <item>AN</item>
+        <item>NC</item>
+        <item>NZ</item>
+        <item>NI</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>NU</item>
+        <item>NF</item>
+        <item>MP</item>
+        <item>NO</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PW</item>
+        <item>PS</item>
+        <item>PA</item>
+        <item>PG</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>PH</item>
+        <item>PN</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>PR</item>
+        <item>QA</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>SH</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>PM</item>
+        <item>VC</item>
+        <item>WS</item>
+        <item>SM</item>
+        <item>ST</item>
+        <item>SA</item>
+        <item>SN</item>
+        <item>CS</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SG</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>SB</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>GS</item>
+        <item>ES</item>
+        <item>LK</item>>
+        <item>SD</item>
+        <item>SR</item>
+        <item>SJ</item>
+        <item>SZ</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>SY</item>
+        <item>TW</item>
+        <item>TJ</item>
+        <item>TZ</item>
+        <item>TH</item>
+        <item>TL</item>
+        <item>TG</item>,
+        <item>TK</item>
+        <item>TO</item>
+        <item>TT</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>TM</item>
+        <item>TC</item>
+        <item>TV</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>GB</item>
+        <item>US</item>
+        <item>UM</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VU</item>
+        <item>VE</item>
+        <item>VN</item>
+        <item>VG</item>
+        <item>VI</item>
+        <item>WF</item>
+        <item>EH</item>
+        <item>YE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
+    <string name="api_error">Error while fetching data</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="deceased">Deceased</string>
+    <string name="uae">Europe</string>
+    <string name="world">World</string>
+    <string name="all">All</string>
+    <string name="near_by">Near By</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="risk_status">Close Contact Risk Detector</string>
+    <string name="infected_nearby_page">Infected Near By</string>
+    <string name="covid_tracker">Statistics</string>
+    <string name="covid_center">Centers</string>
+    <string name="prevent_covid">Preventive Measures</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="self_assessment">Self Assessment Test</string>
+    <string name="announcement">Government Announcement</string>
+    <string name="helpline">Helpline Numbers</string>
+    <string name="terms">Terms Of Use</string>
+    <string name="assessment_result_action_button">For any further assistance please contact</string>
+
+    <string name="prevent_covid_line_one">Wash Hands</string>
+    <string name="prevent_covid_line_two">Social Distance</string>
+    <string name="prevent_covid_line_three">Wear Mask</string>
+    <string name="prevent_covid_line_four">Elbow Sneeze</string>
+    <string name="prevent_covid_line_five">Avoid Contact</string>
+    <string name="prevent_covid_line_six">Avoid Animals</string>
+    <string name="prevent_covid_line_seven">Take Rest</string>
+    <string name="prevent_covid_line_eight">Consume Fluids</string>
+
+    <string name="self_question_1">\u25CF Have you recently traveled to an area with known local spread of COVID-19?</string>
+    <string name="self_question_2">\u25CF Have you come into close contact (within 6 feet) with someone who has a laboratory confirmed COVID - 19
+        diagnosis in the past 14 days?</string>
+    <string name="self_question_3">\u25CF Do you have you a fever (greater than 100.4 F or 38.0 C) OR symptoms of lower respiratory illness such as
+    cough, shortness of breath, difficulty breathing or sore throat?</string>
+    <string name="self_question_4">\u25CF Are you a first responder, healthcare worker, or employee or attendee of a child or adult care facility?</string>
+    <string name="terms_content">These terms of service (Terms) govern your use of the Covid Tracker application for mobile and handheld devices (App) and the services provided thereunder. Please read these terms and conditions (Terms) carefully before you download, install or use the App. By clicking on the “I Agree” button, you signify your acceptance of the Terms, and your agreement to be bound by them. The Terms may be amended from time to time with notice to you. In order to continue using the App, yYou willwill be required to accept the revised Terms. Failure to comply with the Terms can result in suspension of your ability to use the App.
+\n
+        \n
+1) SERVICE OVERVIEW
+        \n
+        \n
+The App is part of a service designed to enable registered users who have come in contact with other registered users who have tested positive for the severe acute respiratory syndrome Coronavirus 2 (COVID-19) to be notified, traced and suitably supported (Services). When the App is installed on your mobile or handheld device, it detects when your device comes within Bluetooth/ GPS range of any other registered user’s device and initiates a protocol by which all necessary personal information (including location information) about that other registered is collected, and securely stored in the App on your device. In the event you test positive for COVID-19, the Government of India will contact all registered users that you have come in contact with you over the past 30 days to administer the appropriate medical intervention. Similarly, you will be notified if any of the persons you came in contact with over the past 30 days has tested positive for COVID-19.
+\n
+        \n
+2) REQUIREMENTS FOR USE
+        \n
+        \n
+You agree to turn on and allow the App access to the Bluetooth and GPS services on your mobile or handheld device. You acknowledge that if your device is switched off or in airplane mode, if Bluetooth and GPS services on your device are turned off or if you revoke the App’s access to Bluetooth and GPS services on your device, it will not be able capture all necessary information which will impair the completeness and accuracy of the Services. You agree to keep the mobile or handheld device on which the App is installed in your possession at all times and to not share it with or allow anyone else to use it. You acknowledge that if you do so it could result in you being falsely identified as being COVID-19 positive or not being identified when you are.
+\n
+        \n
+3) USE
+        \n
+        \n
+You agree that you will only use the App in good faith and will not provide false or misleading information about yourself or your infection status. You agree that you will not do anything to throttle, engineer a denial of service, or in any other manner impair the performance or functionality of the App. You agree that you will not tamper with, reverse-engineer or otherwise use the App for any purpose for which it was not intended including, but not limited to, accessing information about registered users stored in the App, identifying or attempting to identify other registered users or gaining or attempting to gain access to the cloud database of the Service.
+\n
+        \n
+4) PRIVACY
+        \n
+        \n
+You hereby consent to the collection and use of your personal information for the provision of the Services. The details of the personal information collected and the manner in which it collected and by whom as well as the purposes for which it will be used is more fully set out in our privacy policy which is available here. You are free to choose not to provide this information at any time by revoking the App’s access to Bluetooth and GPS services or by deleting the App from mobile or handheld device. However, should you do so, you acknowledge that you will no longer be able to avail of the Services.
+\n
+        \n
+5) DISRUPTION
+        \n
+        \n
+You agree that you have no expectation of, or right to permanent and uninterrupted access to the Services. While the Services are intended to be accessible to you from everywhere on a 24x7 basis, from time to time and without prior notice of downtime, access to the App or the Services or to any part thereof may be suspended on either a temporary or permanent basis and either with respect to all or a certain class of users.
+\n
+        \n
+6) LIMITATION OF LIABILITY
+        \n
+        \n
+You agree and acknowledge that the Government of India will not be liable for any claims in relation to the use of the App, including but not limited to (a) your inability to access or use the App or the Services; (b) the failure of the App or the Services to accurately identify persons in your proximity who have tested positive to COVID-19; (c) the accuracy of the information provided by the App or the Services as to whether the persons you have come in contact with in fact been infected by COVID-19; (d) any un-authorized access to your information or modification thereof.
+\n
+        \n
+7) DISCLAIMER
+        \n
+        \n
+The App is being made available on an "as-is" basis and the Government of India makes no warranties of any kind, whether express, implied, statutory or otherwise, with respect to the functioning of the App or its ability to accurately identify those who have tested positive to COVID-19. All services such as those provided by this App are never wholly free from defects, errors and bugs, and the Government of India provides no warranty or representation to that effect or that the App will be compatible with any application, or software not specifically identified as compatible. The Government of India specifically disclaims any implied warranties of fitness for a particular purpose or non-infringement. The functioning of the App is dependent on the compliance by all registered users of the App with these Terms. Accordingly, the Government of India disclaims all liability on account of such non-compliance by other registered users. The Services are being provided are not a substitute for common prudence, medical diagnosis, or other therapeutic and epidemiological measures necessary to combat COVID-19.
+\n
+        \n
+8) GOVERNING LAW
+        \n
+        \n
+These Terms shall be governed by the laws of IndiaUnited Arab Emirates.
+</string>
+    <string name="search_location">Search Location</string>
+    <string name="submit">Submit</string>
+    <string name="dubai_police">European Union</string>
+    <string name="tag_line">Fight Against COVID-19</string>
+    <string name="select">Select or Search Items</string>
+    <string name="close">Close</string>
+    <string name="covid_information">COVID Information</string>
+    <string name="rdb_confirmed">Confirmed</string>
+    <string name="rdb_Suspected">Suspected</string>
+    <string name="rdb_home_quarantined">Home Quarantined</string>
+    <string name="rdb_facility_quarantined">Quarantined In A Facility</string>
+    <string name="rdb_Safe">Safe</string>
+    <string name="update">Update</string>
+    <string name="refresh">Refresh</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="get_OTP">Get OTP</string>
+    <string name="user_registration">User Registration</string>
+    <string name="name">Name *</string>
+    <string name="emirate">European Union ID</string>
+    <string name="passport">Passport No</string>
+    <string name="mobile_no">Mobile No *</string>
+    <string name="email">Email *</string>
+    <string name="location">Location *</string>
+    <string name="location_map">Location on Map</string>
+    <string name="search_location_hint">Search Location here...</string>
+    <string name="gender">Gender *</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="nationality">Country Of Origin*</string>
+    <string name="age">Age *</string>
+    <string name="show_on_map">Show On Map</string>
+    <string name="risk">Risk</string>
+
+    <string name="no_risk">No Risk</string>
+    <string name="tap_to_choose">Tap to choose</string>
+    <string name="no_available_center">No centers are available near your location</string>
+    <string name="no_available_cluster">No Containment Zone are available near your location</string>
+    <string name="please_enter_otp">Please enter OTP</string>
+    <string-array name="home_menu">
+        <item>Close Contact Risk Detector</item>
+        <item>Infected Near By</item>
+        <item>Statistics</item>
+        <item>Centers</item>
+        <item>Preventive Measures</item>
+        <item>Self Assessment</item>
+        <item>Containment Cluster</item>
+        <item>Government Announcement</item>
+        <item>Helpline Numbers</item>
+        <item>Test Statistics</item>
+        <item>Test Log</item>
+        <item>Terms Of Use</item>
+    </string-array>
+    <string-array name="home_menu_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string name="language_en">En</string>
+    <string name="language_ar">Ar</string>
+    <string-array name="help_line_name">
+        <item>Police</item>
+        <item>Ambulance</item>
+        <item>Fire Department(Civil Defence)</item>
+        <item>Coastguard</item>
+        <item>Electricity</item>
+        <item>Water Failure</item>
+    </string-array>
+    <string-array name="help_line_number">
+        <item>911</item>
+        <item>998</item>
+        <item>997</item>
+        <item>996</item>
+        <item>991</item>
+        <item>922</item>
+    </string-array>
+    <string name="test_result">Test Result</string>
+    <string name="log">Test Log</string>
+    <string name="test">Test Statistics</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="cluster">Containment Cluster</string>
+    <string name="progress">Please Wait...</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+        <variable
+            name="vmAdapterGridMenu"
+            type="com.android.dubaicovid19.view.viewModels.HomeViewModel" />
+    </data>
+    <LinearLayout
+            android:layout_width="112dp"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="1"
+            android:layout_margin="1dp"
+            android:layoutDirection="locale"
+            android:background="#003F37">
+            <ImageView
+                android:id="@+id/imgMenuIcon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.6"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                style="@style/font_small"
+                android:id="@+id/txtMenuName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:lines="2"
+                android:singleLine="false"
+                android:textColor="@color/white"
+                android:layout_marginVertical="5dp"
+                android:textAlignment="center"
+                android:shadowColor="@color/white"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="5"
+                android:padding="5dp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+</layout>
